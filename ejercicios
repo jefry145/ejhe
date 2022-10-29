@@ -1,105 +1,113 @@
 ejercicio 1
 
-index.html 
 <! DOCTYPE html >
-html lang=en
-head
-meta charset = UTF-8
-meta http-equiv = X-UA compatible content =IE=edge
-meta name =viewport content= width=device-width, initial scale=1.0
-head
-html
-body
-titleEste es el titulo principal de mi primera pagina web title
-h2esto es un subtituloh2
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<meta http-equiv = "X-UA compatible" content ="IE=edge">
+<meta name ="viewport" content= "width=device-width, initial scale=1.0"
+</head>
+<body>
+<header><h1>ESTE ES EL TITULO PRINCIPAL DE MI PRIMER PAGINA WEB</h1></header>
 
-p
+<h2>esto es un subtitulo</h2>
+<p>
 La palabra “párrafo” proviene del griego parágraphos, compuesto por el prefijo para- (“junto a”) y graphos (“escritura” o “letra”). Visto así, un párrafo no es más que el conjunto de escritura que va junta o que se corresponde a una unidad. Si las letras forman palabras, y las palabras forman oraciones, entonces las oraciones forman párrafos.
 el conjunto de escritura que va junta o que se corresponde a una unidad. Si las letras forman palabras, y las palabras forman oraciones, entonces las oraciones forman párrafos.
-pbr
+</p>
 
-h3esto es un h3 es mas pequeño que un h1 y un h2h3br
-
-p
+<h3>esto es un h3 es mas pequeño que un h1 y un h2 </h3>
+<p>
 esto es un segundo parrafo 
-p
-body
-html
+</p>
+</body>
+<html>
 
 Ejercicio 2
 
-! DOCTYPE html 
-html
-body
-titleEste es el titulo principal de mi primera pagina web title
-h2esto es un subtituloh2
-div
-ol
-liXiaomili
-lisamsumgli
-liiphoneli
-lihuaweili
-ol
-div
-body
-html
+<! DOCTYPE html> 
+<html lang ="en">
+<head>
+</head>
+<body>
+<header><h1>Este es el titulo principal de mi primera pagina web </h1></header>
+<h2>esto es un subtitulo</h2>
+
+<ol>
+<li>Xiaomi</li>
+<li>samsumg</li>
+<li>iphone</li>
+<li>huawei</li>
+</ol>
+
+</body>
+</html>
 
 Ejercicio 3
 
-! DOCTYPE html 
-html
-body
+<! DOCTYPE html >
+<html lang="en">
+<head>
+</head>
 
-title tablas. title
-div
-table
-tr
-tdvehiculotd
-tdpreciotd
-tdvelocidadtd
-tdcolortd
-table
-tr
-tdlaborguini aventadortd
-td400.00std
-td350 kmhtd
-tdrojotd
-tr
-tdFiat puntotd
-td7999std
-td165 kmhtd
-tdazultd
-tr
-tdBMW M4 td
-td79. 000std
-td250 kmhtd
-tdverdetd
-tr
-tdlaborguini huracantd
-td7880.00std
-td280 kmhtd
-tdazul celestetd
-tr
-div
-body
-html
+<body>
+<header><h1>TABLAS</h1>
+</header>
+<table border=1>
+<tr>
+<th scope="col">vehiculo</th>
+<th scope="col">precio</th>
+<th scope="col">velocidad</th>
+<th scope="col">color</th>
+</tr>
+<td>laborguini aventador</td>
+<td>400.00s</td>
+<td>350 kmh</td>
+<td>rojo</td>
+</tr>
+
+<tr>
+<td>Fiat punto</td>
+<td>7999s</td>
+<td>165 kmh</td>
+<td>azul</td>
+</tr>
+
+<tr>
+<td>BMW M4 </td>
+<td>79. 000s</td>
+<td>250 kmh</td>
+<td>verde</td>
+</tr>
+<tr>
+<td>laborguini huracan</td>
+<td>7880.00s</td>
+<td>280 kmh</td>
+<td>azul celeste</td>
+</tr>
+</table>
+</body>
+</html>
 
 
 Ejercicio 4
 
-! DOCTYPE html 
-html
-body
-peste parrafo tiene un trozo en bnegritab otro en icursivai tambien tiene texto en markresaltadomarkpbr
+<! DOCTYPE html> 
+<html lang="en">
+<head>
+</head>
 
-h370sup2sup = 900h3br
+<body>
 
-pel cielo estastrikenubladostrikesoleadopbr
-div
-pel cielo esta nublado me recordaba que debi hacer caso al iaviso de tormentai que dieron esta mañana en la television.br 
-bueno,strikelo hecho hecho esta strike, uya era tarde para lamentarseu p
-div
+<p>este parrafo tiene un trozo en <b>negrita</b> otro en <i>cursiva</i> tambien tiene texto en <mark>resaltado</mark></p><br/>
+
+<h3>70<sup>2</sup> = 4900</h3><br/>
+
+<p>el cielo esta <del>nublado</del> soleado,</p><br/>
 
 
-body
-html
+<p>el cielo esta <b>nublado</b> me recuerda que debi hacer caso al <i>aviso de tormenta</i> ,que dieron esta mañana en la television.<br/> 
+bueno, <del> lo hecho hecho esta </del>, <u>ya era tarde para lamentarse</u> </p>
+
+</body>
+</html>
